@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>Woodies Official</title>
+</head>
+<body>
+    <div class="cursor"></div>
+    <style>
+   .cursor {
+            position: fixed;
+            width: 20px;
+            height: 20px;
+            background-color: transparent;
+            border: 2px solid #fb0ca7;
+            border-radius: 50%;
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+            transition: background-color 0.3s, transform 0.3s, width 0.3s, height 0.3s;
+            mix-blend-mode: difference;
+            z-index: 9999;
+        }
+    </style>
+     <title>Document</title>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-pink-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <h1><span class="ml-3" style="font-size: 30
+            px;">Woodies</span></h1>
+
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900" href="index.html">Home</a>
+            <a class="mr-5 hover:text-gray-900" href="about.html">About</a>
+            <a class="mr-5 hover:text-gray-900" href="help.html">Help</a>
+          </nav>
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Cart
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+   <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+                <span class="text-7xl">Woodies</span>
+                <br class="hidden lg:inline-block">"Crafted for Life's Beautiful Moments – Our Furniture, Your Story"
+            </h1>
+            <p class="mb-8 leading-relaxed">"Welcome to our Furniture Wonderland – Where Comfort Meets! Dive into a world of extraordinary designs, crafted to transform your space into a masterpiece of style and relaxation. Uncover the art of living with our curated collection, where every piece tells a story, and your home becomes the canvas for your unique lifestyle"</p>
+            <div class="flex justify-center">
+                <button class="inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">Shop now</button>
+                <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Sell now</button>
+            </div>
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="furniture" src="https://plus.unsplash.com/premium_photo-1688125414656-ab91164cbd1e?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/720x600">
+        </div>
+    </div>
+</section>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="items" class="object-cover object-center w-full h-full block" src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/420x260">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Dense Mapple</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Family Bed</h2>
+                <P><s>Was $400.00</s></P>
+                <p class="mt-1"> Now $300.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="items" class="object-cover object-center w-full h-full block" src=https://images.unsplash.com/photo-1595526051245-4506e0005bd0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/421x261">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Royal</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Master Bed</h2>
+                <P><s>Was $600.00</s></P>
+                <p class="mt-1"> Now $500.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://plus.unsplash.com/premium_photo-1672136336540-2dd39fd4d1e2?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/422x262">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Comfy</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Sofa</h2>
+                <P><s>Was $200.00</s></P>
+                <p class="mt-1"> Now $170.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="items" class="object-cover object-center w-full h-full block" src="https://images.unsplash.com/photo-1506898667547-42e22a46e125?q=80&w=1412&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/423x263">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Fabric</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Sofa chair</h2>
+                <P><s>Was $80.00</s></P>
+                <p class="mt-1"> Now $76.40</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="items" class="object-cover object-center w-full h-full block" src="https://img.freepik.com/free-photo/gamer-chair-with-multicolored-neon-lights_52683-99743.jpg?w=740&t=st=1702311146~exp=1702311746~hmac=98191c447dbb037c7cdd9147dd169e70419e78509e2b5f4aecdaab8b6ed91c98/424x264">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Hand stitched</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Ultra Gaming Chair</h2>
+                <p><s>Was $100.00</s></p>
+                <p class="mt-1"> Now $70.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="items" class="object-cover object-center w-full h-full block" src="https://images.unsplash.com/photo-1636138389529-d35a2a348dc1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/425x265">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Wooden</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">8 seater dining table</h2>
+                <p><s>Was $30.00</s></p>
+                <p class="mt-1"> Now $21.15</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="items" class="object-cover object-center w-full h-full block" src="https://images.unsplash.com/photo-1593430980369-68efc5a5eb34?q=80&w=1485&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/427x267">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Wooden</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Book shelve</h2>
+                <p><s>Was $50.00</s></p>
+                <p class="mt-1"> Now $30.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="items" class="object-cover object-center w-full h-full block" src="https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/428x268">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Mapple</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Study Table</h2>
+                <p><s>Was $75.00</s></p>
+                <p class="mt-1"> Now $50.40</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h10 style="font-size: xx-large; font-family: Verdana, Geneva, Tahoma, sans-serif; margin-left: 40%;">Our Services</h10>
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto flex flex-wrap">
+              <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple-500 text-white relative z-10 title-font font-medium text-sm">1</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                  <div class="flex-shrink-0 w-24 h-24 bg-purple-100 text-purple-500 rounded-full inline-flex items-center justify-center">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                  </div>
+                  <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                    <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Buy</h2>
+                    <p class="leading-relaxed">The most premium quality that will make your life an easy one.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple-500 text-white relative z-10 title-font font-medium text-sm">2</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                  <div class="flex-shrink-0 w-24 h-24 bg-purple-100 text-purple-500 rounded-full inline-flex items-center justify-center">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+                      <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                    </svg>
+                  </div>
+                  <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                    <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Sell</h2>
+                    <p class="leading-relaxed">Sell your old furniture at good rates.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple-500 text-white relative z-10 title-font font-medium text-sm">3</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                  <div class="flex-shrink-0 w-24 h-24 bg-purple-100 text-purple-500 rounded-full inline-flex items-center justify-center">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+                      <circle cx="12" cy="5" r="3"></circle>
+                      <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                    </svg>
+                  </div>
+                  <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                    <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Repair</h2>
+                    <p class="leading-relaxed">Get your broken furniture repaired by our proffesionl team.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple-500 text-white relative z-10 title-font font-medium text-sm">4</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                  <div class="flex-shrink-0 w-24 h-24 bg-purple-100 text-purple-500 rounded-full inline-flex items-center justify-center">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+                      <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                  </div>
+                  <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                    <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Help</h2>
+                    <p class="leading-relaxed">Feel free to contact us.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <section class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto">
+                  <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+                      <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                    </svg>
+                    <p class="leading-relaxed text-lg">High-quality furniture is a testament to impeccable craftsmanship and thoughtful design. It's more than just functional; it's an investment in enduring style and durability. Made from superior materials and with meticulous attention to detail, quality furniture not only enhances the aesthetics of a space but also stands resilient against the test of time.</p>
+                    <span class="inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"></span>
+                    <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Hamza Qasim</h2>
+                    <p class="text-gray-500">CEO</p>
+                  </div>
+                </div>
+              </section>
+          </section>
+          <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="text-2xl font-medium title-font mb-4 text-gray-900">OUR TEAM</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Highly qualified team from Air University.</p>
+              </div>
+              <div class="flex flex-wrap -m-4">
+                <div class="p-4 lg:w-1/4 md:w-1/2">
+                  <div class="h-full flex flex-col items-center text-center">
+                    <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="WhatsApp Image 2023-12-27 at 10.57.57 PM.jpeg">
+                    <div class="w-full">
+                      <h2 class="title-font font-medium text-lg text-gray-900">Hamza Qasim</h2>
+                      <h3 class="text-gray-500 mb-3">CEO DEVELOPER</h3>
+                      <p class="mb-4">Man behind the project, INFLUENCER.</p>
+                      <span class="inline-flex">
+                        <a class="text-gray-500">
+                          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                          </svg>
+                        </a>
+                        <a class="ml-2 text-gray-500">
+                          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                          </svg>
+                        </a>
+                        <a class="ml-2 text-gray-500">
+                          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                          </svg>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-4 lg:w-1/4 md:w-1/2">
+                  <div class="h-full flex flex-col items-center text-center">
+                    <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="WhatsApp Image 2023-12-27 at 10.52.35 PM.jpeg">
+                    <div class="w-full">
+                      <h2 class="title-font font-medium text-lg text-gray-900">Umer Zubair</h2>
+                      <h3 class="text-gray-500 mb-3">Senior Programmer</h3>
+                      <p class="mb-4">DEVELOPER.</p>
+                      <span class="inline-flex">
+                        <a class="text-gray-500">
+                          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                          </svg>
+                        </a>
+                        <a class="ml-2 text-gray-500">
+                          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                          </svg>
+                        </a>
+                        <a class="ml-2 text-gray-500">
+                          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                          </svg>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-4 lg:w-1/4 md:w-1/2">
+                  <div class="h-full flex flex-col items-center text-center">
+                    <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="WhatsApp Image 2023-12-27 at 11.11.59 PM.jpeg">
+                    <div class="w-full">
+                      <h2 class="title-font font-medium text-lg text-gray-900">Muhammad Annas</h2>
+                      <h3 class="text-gray-500 mb-3">Coder</h3>
+                      <p class="mb-4">Designer.</p>
+                      <span class="inline-flex">
+                        <a class="text-gray-500">
+                          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                          </svg>
+                        </a>
+                        <a class="ml-2 text-gray-500">
+                          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                          </svg>
+                        </a>
+                        <a class="ml-2 text-gray-500">
+                          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                          </svg>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+            const cursor = document.querySelector(".cursor");
+
+            document.addEventListener("mousemove", function (e) {
+                const x = e.clientX;
+                const y = e.clientY;
+
+                cursor.style.left = `${x}px`;
+                cursor.style.top = `${y}px`;
+            });
+
+            const elements = document.querySelectorAll("a, button, img");
+            elements.forEach(element => {
+                element.addEventListener("mouseenter", function () {
+                    cursor.style.width = "40px";
+                    cursor.style.height = "40px";
+                });
+
+                element.addEventListener("mouseleave", function () {
+                    cursor.style.width = "20px";
+                    cursor.style.height = "20px";
+                });
+            });
+        });
+     </script>     
+      <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+     <script>
+       function addDarkmodeWidget() {
+         new Darkmode().showWidget();
+       }
+       window.addEventListener('load', addDarkmodeWidget);
+     </script>
+</body>
+</html>
